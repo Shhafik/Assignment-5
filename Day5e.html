@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .one{
+        margin-left:20px;
+        border:2px solid #000000;
+        padding:10px 6px 0px 4px;
+        width:150px;
+        display:flex;
+        flex-direction: column;
+    }
+    #a{
+        background-color: orange;
+        color: white;
+        margin-bottom: 0px;
+        padding-left: 10px;
+    }
+    #b{
+        background-color: skyblue;
+        color: darkblue;
+        margin-top: 0px;
+    }
+    .two{
+        border:2px solid #000000;
+        margin-right:0px;
+        display:flex;
+        width: flex-content;
+        height: 45px;
+        padding:5px 0px 3px 1px;
+    }
+    #c{
+        background-color: grey;
+        color:white;
+        width:60px;
+        height:fit-content;
+        text-align: center;
+        margin-right: 0px;
+        padding-bottom: 7px;
+        border-right:2px solid blue;
+    }
+    #d{
+        background-color:rgb(219, 217, 217);
+        height:45px;
+        display:flex;
+        width:250px;
+        margin-left: 0px;
+        margin-right: 0px;
+        color:darkblue;
+    }
+    p{
+        margin: 10px;
+    }
+    #tot{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    #so{
+        display: flex;
+        justify-content: space-around;
+    }
+    #sa{
+        border-right:2px solid blue;
+        width: 70px;
+        text-align: center;
+        padding-top: 7px;
+    }
+</style>
+<body>
+    <div id="so">
+        <h4>Vertical Navigation Bar</h4>
+        <h4>Horizontal Navigation Bar </h4>
+    </div>
+    <div id="tot">
+    <div class="one">
+        <div id="a">
+            <p>Home</p>
+        </div>
+        <div id="b">
+            <p>Java</p>
+            <p>CSS</p>
+            <p>HTML</p>
+            <p>Bootstrap</p>
+        </div>
+    </div>
+    <br>
+    <div class="two">
+        <div id="c">
+            <p>Home</p>
+        </div>
+        <div id="d">
+            <div id="sa">Java</div>
+            <div id="sa">CSS</div>
+            <div id="sa">HTML</div>
+            <div id="sa">Bootstrap</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
